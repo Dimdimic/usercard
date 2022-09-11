@@ -8,7 +8,86 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="card" data-state="#about">
+
+        <div class="card-header">
+            <div class="card-cover" style="background-image: url(img/boy.jfif);"></div>
+            <img src="img/boy.jfif" alt="Avatar" class="card-avatar">
+            <h1 class="card-fullname">Dimitriy Mojet</h1>
+            <h2 class="card-jobtitle">UI Developer</h2>
+        </div>
+        
+        <div class="card-main">
+
+            <div class="card-section is-active" id="about">
+
+                <div class="card-content">
+                    <div class="cadr-subtitle">ABOUT</div>
+                    <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis totam aliquid quasi accusantium reiciendis laudantium!</p>
+                </div>
+
+                <div class="card-social">
+                    <a href="#"><img src="img/fb.png" alt="facebook"></a>
+                    <a href="#"><img src="img/twitter.png" alt="twitter"></a>
+                    <a href="#"><img src="img/insta.png" alt="insta"></a>
+                    <a href="#"><img src="img/linkedin.png" alt="linkeid"></a>
+                </div>
+
+            </div>
+
+            <div class="card-section" id="experience">
+                <div class="card-content">
+                    <div class="card-subtitle">WORK EXPERIENCE</div>
+                    <div class="card-timeline">
+                        <div class="card-item" data-year="2014">
+                            <div class="card-item-title">Front-end Developer at <span>Jetforms</span></div>
+                            <div class="card-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                        </div>
+                        <div class="card-item" data-year="2016">
+                            <div class="card-item-title">UI Developer at <span>Github</span></div>
+                            <div class="card-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                        </div>
+                        <div class="card-item" data-year="2018">
+                            <div class="card-item-title">Illustration Developer at <span>Google</span></div>
+                            <div class="card-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                        </div>
+                        <div class="card-item" data-year="2020">
+                            <div class="card-item-title">Full-Stack Developer at <span>Codepen</span></div>
+                            <div class="card-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-section" id="contact">
+                <div class="card-content">
+                    <div class="card-subtitle">CONTACT</div>
+                    <div class="card-contact-wrapper">
+                        <div class="card-contact">
+                            <img src="img/location.png" alt="Location">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </div>
+                        <div class="card-contact">
+                            <img src="img/phone.png" alt="Phone">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </div>
+                        <div class="card-contact">
+                            <img src="img/mail.png" alt="Email">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </div>
+                        <button class="contact-me">WORK TOGETHER</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-buttons">
+                <button class="is-active" data-section="#about">ABOUT</button>
+                <button  data-section="#experience">EXPERIENCE</button>
+                <button  data-section="#contact">CONTACT</button>
+            </div>
+
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
